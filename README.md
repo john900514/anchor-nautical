@@ -1,29 +1,40 @@
-# README #
+# Nautical Integrator
 
-This README would normally document whatever steps are necessary to get your application up and running.
+[![GitHub Workflow Status](https://github.com/capeandbay-devs/nautical-integrator/workflows/Run%20tests/badge.svg)](https://github.com/capeandbay-devs/nautical-integrator/actions)
+[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
 
-### What is this repository for? ###
+[![Packagist](https://img.shields.io/packagist/v/capeandbay-devs/nautical-integrator.svg)](https://packagist.org/packages/capeandbay-devs/nautical-integrator)
+[![Packagist](https://poser.pugx.org/capeandbay-devs/nautical-integrator/d/total.svg)](https://packagist.org/packages/capeandbay-devs/nautical-integrator)
+[![Packagist](https://img.shields.io/packagist/l/capeandbay-devs/nautical-integrator.svg)](https://packagist.org/packages/capeandbay-devs/nautical-integrator)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Package description: CHANGE ME
 
-### How do I get set up? ###
+## Installation
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Install via composer
+```bash
+composer require capeandbay-devs/nautical-integrator
+```
 
-### Contribution guidelines ###
+### Publish package assets
 
-* Writing tests
-* Code review
-* Other guidelines
+```bash
+php artisan vendor:publish --provider="CapeandbayDevs\NauticalIntegrator\ServiceProvider"
+```
 
-### Who do I talk to? ###
+## Usage
 
-* Repo owner or admin
-* Other community or team contact
+CHANGE ME
+
+## Security
+
+If you discover any security related issues, please email 
+instead of using the issue tracker.
+
+## Credits
+
+- [](https://github.com/capeandbay-devs/nautical-integrator)
+- [All contributors](https://github.com/capeandbay-devs/nautical-integrator/graphs/contributors)
+
+This package is bootstrapped with the help of
+[melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
